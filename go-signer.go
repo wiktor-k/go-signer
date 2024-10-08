@@ -17,9 +17,9 @@ func main() {
 	if err != nil {
 		fmt.Printf("failed encoding, err: %w\n", err)
 	}
-	fmt.Printf("%v", encoding)
+	fmt.Println(encoding)
 
 	sha := //base64.URLEncoding.EncodeToString
 		(hasher.Sum(nil))
-	fmt.Printf("%v", sha)
+	fmt.Println(sha)
 }
